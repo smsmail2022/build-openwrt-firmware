@@ -4,9 +4,9 @@ cd openwrt
 
 cat >.config <<-EOF
 ## target
-CONFIG_TARGET_x86=y
-CONFIG_TARGET_x86_64=y
-CONFIG_TARGET_x86_64_DEVICE_generic=y
+CONFIG_TARGET_ramips=y
+CONFIG_TARGET_ramips_mt7621=y
+CONFIG_TARGET_ramips_mt7621_DEVICE_phicomm_k2p=y
 ## app
 CONFIG_PACKAGE_luci-app-acme=y
 CONFIG_PACKAGE_luci-app-omcproxy=y
